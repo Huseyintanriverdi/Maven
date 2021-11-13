@@ -15,7 +15,7 @@ public class C01_Maven {
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(14, TimeUnit.SECONDS);
         // class'in basinda implicitlywait komutu yazilirsa
         // bu test boyunca her locator icin driver maximum yazilan zaman kadar bekler
         //1- https://www.amazon.com/ sayfasina gidelim
